@@ -66,12 +66,12 @@ jobs:
         sudo make iso REBUILD_TOOLS=y REBUILD_PACKAGES=n CONFIG_FILE=./imageconfigs/full.json
         popd
 
-      - name: Upload to Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: CBL-Mariner-ISO
-          path: |
-            ./out/images/full/*.*
+    - name: Upload to Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: CBL-Mariner-ISO
+        path: |
+          ./out/images/full/*.*
 
   vhdx_quickstart:
     runs-on: ubuntu-18.04
@@ -100,9 +100,9 @@ jobs:
         sudo make image REBUILD_TOOLS=y REBUILD_PACKAGES=n CONFIG_FILE=./imageconfigs/full.json
         popd
 
-      - name: Upload to Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: CBL-Mariner vhdx
-          path: |
-            ./out/images/full/*.*
+    - name: Upload to Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: CBL-Mariner vhdx
+        path: |
+          ./out/images/full/*.*

@@ -1,1 +1,7 @@
-Sample GUI Installer EULA
+This is a fork of Microsoft CBL-Mariner, some code / packages / specs has been modified By RDPStudio.
+ORIGINAL CODE IS CREATED BY MICROSOFT
+THIS EDITION IS EDITED BY RDPSTUDIO
+EVERYBUG IN THIS EDITION IS NOT RELATED TO MICROSOFT
+DO NOT SUBMIT BUGS TO MICROSOFT
+IF YOU NEED TO SUBIT A BUG
+LOOK HERE:https://github.com/rdp-studio/CBL-Mariner/issues
